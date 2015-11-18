@@ -119,7 +119,7 @@ public abstract class GetPlaylistAsyncTask extends AsyncTask<String, Integer, Pa
             videoInfo.setPosition(item.getSnippet().getPosition());
             videoInfo.setPlaylistId(playlistId);
             videoInfo.setImageUrl(video.getSnippet().getThumbnails().getHigh().getUrl());
-            videoInfo.setId(item.getId());
+            videoInfo.setId(video.getId());
 
             videoInfoList.add(videoInfo);
             videoInfoRepository.createIfNotExists(videoInfo);

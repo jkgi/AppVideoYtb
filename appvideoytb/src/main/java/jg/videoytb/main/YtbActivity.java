@@ -10,7 +10,7 @@ import com.google.android.youtube.player.YouTubePlayerView;
 
 public class YtbActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener{
 
-    private static final String API_KEY = "AIzaSyBHLamCp2CfmxkUcuiIMN-c06W5Wh9wals";
+    private static final String API_KEY = "AIzaSyBtEEuc_PgZ5OLP1An6PUvrssIsoZ6Lu0M";
     private String videoId;
 
     @Override
