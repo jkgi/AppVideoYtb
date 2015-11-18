@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/pl_list1" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Playlist1" />
+        <item android:id="@+id/pl_list2" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Playlist2" />
+        <item android:id="@+id/pl_list3" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Playlist3" />
+
+    </group>
+
+</menu>
